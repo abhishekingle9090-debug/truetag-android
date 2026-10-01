@@ -1,4 +1,4 @@
-# TrueTag 🏷️⚡
+# TrueTag 
 
 > **Point your camera. See the real price. No surprises.**
 
@@ -8,7 +8,7 @@ In the United States, sales tax is calculated and added at checkout, meaning the
 
 ---
 
-## 🚀 The 60-Second Demo Path (Shipaton Walkthrough)
+##  The 60-Second Demo Path (Shipaton Walkthrough)
 
 1. **Splash Screen**: Watch the animated logo seamlessly morph from a rounded price tag into a crisp clarity checkmark.
 2. **Scan Shelf Tag**: Point camera at a price tag or tap **Demo Scan** (`Coffee Beans ($12.99)`).
@@ -16,7 +16,7 @@ In the United States, sales tax is calculated and added at checkout, meaning the
    - Shelf Tag: `$12.99`
    - Estimated Tax: `+$1.33 (10.25%)`
    - Real Checkout Price: `=$14.32`
-   - **Smart Insight**: *"🟢 Good deal — 14% below typical average"*
+   - **Smart Insight**: *" Good deal — 14% below typical average"*
 4. **Live Location Breakdown**: Tap the top location chip (`📍 Chicago, IL · Cook County · 10.25%`) to reveal the detailed breakout:
    - State Tax: `6.25%`
    - Cook County Tax: `1.75%`
@@ -32,7 +32,7 @@ In the United States, sales tax is calculated and added at checkout, meaning the
 
 ---
 
-## 🌟 Comprehensive Feature Set
+##  Comprehensive Feature Set
 
 ### 1. Real GPS + Smart Location Layer
 - `FusedLocationProviderClient` retrieves current GPS location.
@@ -119,7 +119,7 @@ In the United States, sales tax is calculated and added at checkout, meaning the
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 - **Architecture**: MVVM with ViewModel, StateFlow, and Repository pattern.
 - **Local Persistence**: **Room Database** (`androidx.room`) with reactive `Flow` queries for Cart items, Trips, Chat history, and User stats.
@@ -130,7 +130,7 @@ In the United States, sales tax is calculated and added at checkout, meaning the
 
 ---
 
-## 🚀 Running the App
+## Running the App
 
 ```bash
 # Build debug APK
