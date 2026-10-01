@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TrueTag</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Shelf says $10. Register says $10.85.</string>
+    <string name="onboarding_1_desc">In the United States, sales tax is calculated at checkout, so the sticker price is never what you actually pay.</string>
+    <string name="onboarding_2_title">Tax changes by city &amp; county.</string>
+    <string name="onboarding_2_desc">Because in the US, tax is added at checkout — and it changes by city.</string>
+    <string name="onboarding_3_title">Point your camera. See the real price. No surprises.</string>
+    <string name="onboarding_3_desc">Instant on-device OCR calculates combined state, county, and local tax offline in milliseconds.</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+
+    <!-- Scanner / Home -->
+    <string name="scan_tag_hint">Align price inside frame</string>
+    <string name="detecting_price">Detecting price tag…</string>
+    <string name="default_location_format">📍 %1$s, %2$s · %3$s tax</string>
+    <string name="demo_mode">Demo Mode</string>
+    <string name="simulate_scan">Demo Scan</string>
+    <string name="change_location">Change City</string>
+    <string name="camera_permission_required">Camera permission is required to scan price tags</string>
+    <string name="grant_permission">Grant Permission</string>
+
+    <!-- Result Bottom Sheet -->
+    <string name="tag_price_label">Shelf Price</string>
+    <string name="tax_amount_format">+ %1$s tax (%2$s)</string>
+    <string name="real_price_format">= %1$s checkout price</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="scan_next">Scan Next</string>
+    <string name="save_trip">Save Trip</string>
+    <string name="trip_saved">Shopping trip saved!</string>
+
+    <!-- Cart / Running Total -->
+    <string name="cart_title">Current Cart</string>
+    <string name="cart_running_total">Running Total</string>
+    <string name="clear_cart">Clear</string>
+    <string name="empty_cart_title">Cart is empty</string>
+    <string name="empty_cart_desc">Scan price tags to watch your real checkout total build in real time with tax included.</string>
+    <string name="total_label">Checkout Total</string>
+    <string name="tax_included_format">includes %1$s estimated sales tax</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="item_name_hint">Item name (e.g. Milk, Headphones)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Paywall -->
+    <string name="paywall_title">TrueTag Pro</string>
+    <string name="paywall_subtitle">Unlock unlimited scans and smart tax tracking</string>
+    <string name="pro_feature_1">Unlimited price tag scans</string>
+    <string name="pro_feature_2">Save and export shopping trips</string>
+    <string name="pro_feature_3">Monthly sales tax tracker &amp; analytics</string>
+    <string name="pro_feature_4">Offline tax lookup for all 50 US states &amp; 100+ cities</string>
+    <string name="upgrade_pro">Upgrade to Pro</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="free_limit_title">Daily Scan Limit Reached</string>
+    <string name="free_limit_desc">You\'ve used your 5 free scans for today. Upgrade to TrueTag Pro for unlimited scans.</string>
+    <string name="pro_active">Pro Member Active</string>
+
+    <!-- Tax Tracker -->
+    <string name="tax_tracker_title">Tax Tracker</string>
+    <string name="tax_paid_month_format">You paid %1$s in sales tax this month.</string>
+    <string name="weekly_tax_breakdown">Weekly Tax Breakdown</string>
+    <string name="week_format">Wk %1$d</string>
+    <string name="trips_tracked_format">%1$d trips tracked</string>
+    <string name="no_trips_yet">No saved trips yet. Scan items and tap \'Save Trip\' to track your monthly sales tax.</string>
+</resources>

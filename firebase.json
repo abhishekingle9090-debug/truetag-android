@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-truetag-9ae6b438-1cc6-4f5e-af8c-455c801142b0",
+      "rules": "firestore.rules"
+    }
+  ]
+}

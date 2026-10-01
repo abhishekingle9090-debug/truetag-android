@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account profile and preferences",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "profileImage": { "type": "string" },
+        "preferredCurrency": { "type": "string" },
+        "budgetPreference": { "type": "number" }
+      },
+      "required": ["name", "email", "createdAt"]
+    },
+    "ShoppingTrip": {
+      "title": "ShoppingTrip",
+      "description": "Historical saved shopping trip with totals and tax",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "storeName": { "type": "string" },
+        "date": { "type": "string" },
+        "total": { "type": "number" },
+        "taxPaid": { "type": "number" },
+        "subtotal": { "type": "number" },
+        "itemCount": { "type": "number" },
+        "notes": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "storeName", "total", "taxPaid", "createdAt"]
+    },
+    "TripItem": {
+      "title": "TripItem",
+      "description": "Individual scanned item within a shopping trip",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "tagPrice": { "type": "number" },
+        "taxRate": { "type": "number" },
+        "taxAmount": { "type": "number" },
+        "truePrice": { "type": "number" },
+        "category": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "tagPrice", "truePrice"]
+    },
+    "SavedCart": {
+      "title": "SavedCart",
+      "description": "Active or saved shopping cart for a user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "items": { "type": "array" },
+        "totalTagPrice": { "type": "number" },
+        "totalTax": { "type": "number" },
+        "totalRealPrice": { "type": "number" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "items", "totalRealPrice"]
+    },
+    "UserSettings": {
+      "title": "UserSettings",
+      "description": "User preferences and shopping budget configuration",
+      "type": "object",
+      "properties": {
+        "budgetAmount": { "type": "number" },
+        "preferredCurrency": { "type": "string" },
+        "themeMode": { "type": "string" },
+        "autoSaveTrips": { "type": "boolean" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["budgetAmount", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile document isolated per user UID"
+    },
+    "/users/{userId}/shoppingTrips/{tripId}": {
+      "schema": "ShoppingTrip",
+      "description": "User shopping trip history"
+    },
+    "/users/{userId}/shoppingTrips/{tripId}/items/{itemId}": {
+      "schema": "TripItem",
+      "description": "Scanned items in a shopping trip"
+    },
+    "/users/{userId}/savedCarts/{cartId}": {
+      "schema": "SavedCart",
+      "description": "User saved and active carts"
+    },
+    "/users/{userId}/preferences/settings": {
+      "schema": "UserSettings",
+      "description": "User specific budget and preference settings"
+    }
+  }
+}

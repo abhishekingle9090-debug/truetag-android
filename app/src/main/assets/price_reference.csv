@@ -1,0 +1,25 @@
+keyword,category,min_price,avg_price,max_price,store_benchmark
+milk,Dairy,3.49,4.49,5.79,Target: $3.99
+coffee,Beverages,8.99,13.49,18.99,Trader Joe's: $9.99
+bread,Bakery,2.49,3.89,5.49,Costco: $2.99
+egg,Dairy,2.79,3.99,5.99,Aldi: $2.89
+apple,Produce,1.99,3.49,4.99,Target: $2.99
+avocado,Produce,2.99,4.49,6.49,Trader Joe's: $3.99
+cereal,Breakfast,3.29,4.79,6.49,Walmart: $3.68
+chicken,Meat,7.99,12.49,16.99,Costco: $9.99
+cheese,Dairy,3.99,5.49,7.99,Aldi: $3.79
+chocolate,Snacks,2.49,3.99,5.99,Trader Joe's: $2.99
+yogurt,Dairy,3.49,4.99,6.99,Target: $4.29
+oil,Pantry,6.99,11.99,16.99,Costco: $8.99
+honey,Pantry,5.99,8.49,12.99,Aldi: $5.99
+water,Beverages,2.99,4.99,6.99,Walmart: $3.48
+towel,Household,9.99,15.99,22.99,Target: $12.99
+soap,Personal Care,3.49,5.99,8.99,Target: $4.99
+detergent,Household,9.99,14.49,19.99,Costco: $11.99
+headphone,Electronics,29.99,49.99,89.99,Amazon: $39.99
+cable,Electronics,7.99,12.99,19.99,Amazon: $8.99
+charger,Electronics,12.99,19.99,29.99,Target: $14.99
+shirt,Apparel,14.99,24.99,39.99,Target: $18.00
+pants,Apparel,24.99,39.99,59.99,Uniqlo: $34.90
+sock,Apparel,6.99,11.99,16.99,Target: $9.00
+item,General,3.99,9.99,19.99,Typical Retail: $8.99

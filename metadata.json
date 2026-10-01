@@ -1,0 +1,6 @@
+{
+  "name": "TrueTag",
+  "description": "Real-time shelf price scanner that calculates true checkout price with state, county, and city sales tax.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

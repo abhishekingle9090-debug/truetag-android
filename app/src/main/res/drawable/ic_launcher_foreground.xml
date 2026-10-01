@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Main Swing Tag Body in Tag Red #C1443C -->
+        <!-- Clipped or angled tag top corners, rounded body -->
+        <path
+            android:fillColor="#C1443C"
+            android:pathData="M 38,24 L 62,24 C 65,24 68,26 70,28 L 78,38 C 80,40.5 81,43.5 81,47 L 81,76 C 81,81.5 76.5,86 71,86 L 37,86 C 31.5,86 27,81.5 27,76 L 27,47 C 27,43.5 28,40.5 30,38 L 38,28 C 40,26 43,24 46,24 Z" />
+        
+        <!-- Punched String Hole in Paper Cream #F7F3EA -->
+        <path
+            android:fillColor="#F7F3EA"
+            android:pathData="M 54,34 A 4.5,4.5 0 1,0 54,43 A 4.5,4.5 0 1,0 54,34 Z" />
+        
+        <!-- Verified Checkmark in Ink Navy #1F2A44 integrated in tag body -->
+        <path
+            android:fillColor="#1F2A44"
+            android:strokeColor="#1F2A44"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 43,59 L 51,67 L 66,50" />
+    </group>
+</vector>
